@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
      appBar: AppBar(
         title: Text("News App", style: TextStyle(color: Colors.black)), 
-        backgroundColor: Colors.white),
+        backgroundColor: Colors.red),
      body: FutureBuilder(
        future: client.getArticle(),
        builder: (BuildContext context, AsyncSnapshot<List<Article>> snapshot)
